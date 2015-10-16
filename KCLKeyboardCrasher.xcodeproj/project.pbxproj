@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7613A3341BC7ECEA004E080E /* log.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7613A3331BC7ECEA004E080E /* log.txt */; settings = {ASSET_TAGS = (); }; };
+		764012411BC75D03008B425F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 764012401BC75D03008B425F /* main.m */; };
+		764012441BC75D03008B425F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 764012431BC75D03008B425F /* AppDelegate.m */; };
+		764012471BC75D03008B425F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 764012461BC75D03008B425F /* ViewController.m */; };
+		7640124A1BC75D03008B425F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 764012481BC75D03008B425F /* Main.storyboard */; };
+		7640124C1BC75D03008B425F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7640124B1BC75D03008B425F /* Assets.xcassets */; };
+		7640124F1BC75D03008B425F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7640124D1BC75D03008B425F /* LaunchScreen.storyboard */; };
+		7640125A1BC75D03008B425F /* KCLKeyboardCrasherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 764012591BC75D03008B425F /* KCLKeyboardCrasherTests.m */; };
+		764012651BC75D03008B425F /* KCLKeyboardCrasherUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 764012641BC75D03008B425F /* KCLKeyboardCrasherUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		764012561BC75D03008B425F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 764012341BC75D03008B425F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7640123B1BC75D03008B425F;
+			remoteInfo = KCLKeyboardCrasher;
+		};
+		764012611BC75D03008B425F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 764012341BC75D03008B425F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7640123B1BC75D03008B425F;
+			remoteInfo = KCLKeyboardCrasher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7613A3331BC7ECEA004E080E /* log.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = log.txt; sourceTree = "<group>"; };
+		7640123C1BC75D03008B425F /* KCLKeyboardCrasher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KCLKeyboardCrasher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		764012401BC75D03008B425F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		764012421BC75D03008B425F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		764012431BC75D03008B425F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		764012451BC75D03008B425F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		764012461BC75D03008B425F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		764012491BC75D03008B425F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7640124B1BC75D03008B425F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7640124E1BC75D03008B425F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		764012501BC75D03008B425F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		764012551BC75D03008B425F /* KCLKeyboardCrasherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KCLKeyboardCrasherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		764012591BC75D03008B425F /* KCLKeyboardCrasherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCLKeyboardCrasherTests.m; sourceTree = "<group>"; };
+		7640125B1BC75D03008B425F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		764012601BC75D03008B425F /* KCLKeyboardCrasherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KCLKeyboardCrasherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		764012641BC75D03008B425F /* KCLKeyboardCrasherUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCLKeyboardCrasherUITests.m; sourceTree = "<group>"; };
+		764012661BC75D03008B425F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		764012391BC75D03008B425F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		764012521BC75D03008B425F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7640125D1BC75D03008B425F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		764012331BC75D03008B425F = {
+			isa = PBXGroup;
+			children = (
+				7640123E1BC75D03008B425F /* KCLKeyboardCrasher */,
+				764012581BC75D03008B425F /* KCLKeyboardCrasherTests */,
+				764012631BC75D03008B425F /* KCLKeyboardCrasherUITests */,
+				7640123D1BC75D03008B425F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7640123D1BC75D03008B425F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7640123C1BC75D03008B425F /* KCLKeyboardCrasher.app */,
+				764012551BC75D03008B425F /* KCLKeyboardCrasherTests.xctest */,
+				764012601BC75D03008B425F /* KCLKeyboardCrasherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7640123E1BC75D03008B425F /* KCLKeyboardCrasher */ = {
+			isa = PBXGroup;
+			children = (
+				7613A3331BC7ECEA004E080E /* log.txt */,
+				764012421BC75D03008B425F /* AppDelegate.h */,
+				764012431BC75D03008B425F /* AppDelegate.m */,
+				764012451BC75D03008B425F /* ViewController.h */,
+				764012461BC75D03008B425F /* ViewController.m */,
+				764012481BC75D03008B425F /* Main.storyboard */,
+				7640124B1BC75D03008B425F /* Assets.xcassets */,
+				7640124D1BC75D03008B425F /* LaunchScreen.storyboard */,
+				764012501BC75D03008B425F /* Info.plist */,
+				7640123F1BC75D03008B425F /* Supporting Files */,
+			);
+			path = KCLKeyboardCrasher;
+			sourceTree = "<group>";
+		};
+		7640123F1BC75D03008B425F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				764012401BC75D03008B425F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		764012581BC75D03008B425F /* KCLKeyboardCrasherTests */ = {
+			isa = PBXGroup;
+			children = (
+				764012591BC75D03008B425F /* KCLKeyboardCrasherTests.m */,
+				7640125B1BC75D03008B425F /* Info.plist */,
+			);
+			path = KCLKeyboardCrasherTests;
+			sourceTree = "<group>";
+		};
+		764012631BC75D03008B425F /* KCLKeyboardCrasherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				764012641BC75D03008B425F /* KCLKeyboardCrasherUITests.m */,
+				764012661BC75D03008B425F /* Info.plist */,
+			);
+			path = KCLKeyboardCrasherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7640123B1BC75D03008B425F /* KCLKeyboardCrasher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 764012691BC75D03008B425F /* Build configuration list for PBXNativeTarget "KCLKeyboardCrasher" */;
+			buildPhases = (
+				764012381BC75D03008B425F /* Sources */,
+				764012391BC75D03008B425F /* Frameworks */,
+				7640123A1BC75D03008B425F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KCLKeyboardCrasher;
+			productName = KCLKeyboardCrasher;
+			productReference = 7640123C1BC75D03008B425F /* KCLKeyboardCrasher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		764012541BC75D03008B425F /* KCLKeyboardCrasherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7640126C1BC75D03008B425F /* Build configuration list for PBXNativeTarget "KCLKeyboardCrasherTests" */;
+			buildPhases = (
+				764012511BC75D03008B425F /* Sources */,
+				764012521BC75D03008B425F /* Frameworks */,
+				764012531BC75D03008B425F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				764012571BC75D03008B425F /* PBXTargetDependency */,
+			);
+			name = KCLKeyboardCrasherTests;
+			productName = KCLKeyboardCrasherTests;
+			productReference = 764012551BC75D03008B425F /* KCLKeyboardCrasherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7640125F1BC75D03008B425F /* KCLKeyboardCrasherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7640126F1BC75D03008B425F /* Build configuration list for PBXNativeTarget "KCLKeyboardCrasherUITests" */;
+			buildPhases = (
+				7640125C1BC75D03008B425F /* Sources */,
+				7640125D1BC75D03008B425F /* Frameworks */,
+				7640125E1BC75D03008B425F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				764012621BC75D03008B425F /* PBXTargetDependency */,
+			);
+			name = KCLKeyboardCrasherUITests;
+			productName = KCLKeyboardCrasherUITests;
+			productReference = 764012601BC75D03008B425F /* KCLKeyboardCrasherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		764012341BC75D03008B425F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = kclab;
+				TargetAttributes = {
+					7640123B1BC75D03008B425F = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					764012541BC75D03008B425F = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 7640123B1BC75D03008B425F;
+					};
+					7640125F1BC75D03008B425F = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 7640123B1BC75D03008B425F;
+					};
+				};
+			};
+			buildConfigurationList = 764012371BC75D03008B425F /* Build configuration list for PBXProject "KCLKeyboardCrasher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 764012331BC75D03008B425F;
+			productRefGroup = 7640123D1BC75D03008B425F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7640123B1BC75D03008B425F /* KCLKeyboardCrasher */,
+				764012541BC75D03008B425F /* KCLKeyboardCrasherTests */,
+				7640125F1BC75D03008B425F /* KCLKeyboardCrasherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7640123A1BC75D03008B425F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7640124F1BC75D03008B425F /* LaunchScreen.storyboard in Resources */,
+				7640124C1BC75D03008B425F /* Assets.xcassets in Resources */,
+				7640124A1BC75D03008B425F /* Main.storyboard in Resources */,
+				7613A3341BC7ECEA004E080E /* log.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		764012531BC75D03008B425F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7640125E1BC75D03008B425F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		764012381BC75D03008B425F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				764012471BC75D03008B425F /* ViewController.m in Sources */,
+				764012441BC75D03008B425F /* AppDelegate.m in Sources */,
+				764012411BC75D03008B425F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		764012511BC75D03008B425F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7640125A1BC75D03008B425F /* KCLKeyboardCrasherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7640125C1BC75D03008B425F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				764012651BC75D03008B425F /* KCLKeyboardCrasherUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		764012571BC75D03008B425F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7640123B1BC75D03008B425F /* KCLKeyboardCrasher */;
+			targetProxy = 764012561BC75D03008B425F /* PBXContainerItemProxy */;
+		};
+		764012621BC75D03008B425F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7640123B1BC75D03008B425F /* KCLKeyboardCrasher */;
+			targetProxy = 764012611BC75D03008B425F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		764012481BC75D03008B425F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				764012491BC75D03008B425F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7640124D1BC75D03008B425F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7640124E1BC75D03008B425F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		764012671BC75D03008B425F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		764012681BC75D03008B425F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7640126A1BC75D03008B425F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KCLKeyboardCrasher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.kclab.KCLKeyboardCrasher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7640126B1BC75D03008B425F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KCLKeyboardCrasher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.kclab.KCLKeyboardCrasher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7640126D1BC75D03008B425F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KCLKeyboardCrasherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.kclab.KCLKeyboardCrasherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KCLKeyboardCrasher.app/KCLKeyboardCrasher";
+			};
+			name = Debug;
+		};
+		7640126E1BC75D03008B425F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KCLKeyboardCrasherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.kclab.KCLKeyboardCrasherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KCLKeyboardCrasher.app/KCLKeyboardCrasher";
+			};
+			name = Release;
+		};
+		764012701BC75D03008B425F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KCLKeyboardCrasherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.kclab.KCLKeyboardCrasherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KCLKeyboardCrasher;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		764012711BC75D03008B425F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KCLKeyboardCrasherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.kclab.KCLKeyboardCrasherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KCLKeyboardCrasher;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		764012371BC75D03008B425F /* Build configuration list for PBXProject "KCLKeyboardCrasher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				764012671BC75D03008B425F /* Debug */,
+				764012681BC75D03008B425F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		764012691BC75D03008B425F /* Build configuration list for PBXNativeTarget "KCLKeyboardCrasher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7640126A1BC75D03008B425F /* Debug */,
+				7640126B1BC75D03008B425F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7640126C1BC75D03008B425F /* Build configuration list for PBXNativeTarget "KCLKeyboardCrasherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7640126D1BC75D03008B425F /* Debug */,
+				7640126E1BC75D03008B425F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7640126F1BC75D03008B425F /* Build configuration list for PBXNativeTarget "KCLKeyboardCrasherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				764012701BC75D03008B425F /* Debug */,
+				764012711BC75D03008B425F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 764012341BC75D03008B425F /* Project object */;
+}

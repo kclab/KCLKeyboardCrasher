@@ -1,0 +1,78 @@
+2015-10-09 12:34:56.715 KCLKeyboardCrasher[1362:593577] This application is modifying the autolayout engine from a background thread, which can lead to engine corruption and weird crashes.  This will cause an exception in a future release.
+ Stack:(
+	0   CoreFoundation                      0x00000001856ecf74 <redacted> + 148
+	1   libobjc.A.dylib                     0x000000019a1f3f80 objc_exception_throw + 56
+	2   CoreFoundation                      0x00000001856ecea4 <redacted> + 0
+	3   Foundation                          0x00000001867065d8 <redacted> + 88
+	4   Foundation                          0x0000000186588a1c <redacted> + 36
+	5   UIKit                               0x000000018ad4793c <redacted> + 64
+	6   UIKit                               0x000000018ad48454 <redacted> + 244
+	7   UIKit                               0x000000018ad64f28 <redacted> + 108
+	8   UIKit                               0x000000018b46e77c <redacted> + 268
+	9   UIKit                               0x000000018af45fb0 <redacted> + 176
+	10  UIKit                               0x000000018af35098 <redacted> + 52
+	11  UIKit                               0x000000018ac3eff0 <redacted> + 644
+	12  QuartzCore                          0x000000018a445f14 <redacted> + 148
+	13  QuartzCore                          0x000000018a440b20 <redacted> + 292
+	14  QuartzCore                          0x000000018a4409e0 <redacted> + 32
+	15  QuartzCore                          0x000000018a44007c <redacted> + 252
+	16  QuartzCore                          0x000000018a43fdd0 <redacted> + 516
+	17  QuartzCore                          0x000000018a4394bc <redacted> + 80
+	18  CoreFoundation                      0x00000001856a3c30 <redacted> + 32
+	19  CoreFoundation                      0x00000001856a19d4 <redacted> + 372
+	20  CoreFoundation                      0x00000001855d0de0 CFRunLoopRunSpecific + 416
+	21  WebCore                             0x0000000197215aa0 <redacted> + 456
+	22  libsystem_pthread.dylib             0x000000019ac03b3c <redacted> + 156
+	23  libsystem_pthread.dylib             0x000000019ac03aa0 <redacted> + 0
+	24  libsystem_pthread.dylib             0x000000019ac01030 thread_start + 4
+)
+2015-10-09 12:34:56.723 KCLKeyboardCrasher[1362:593577] This application is modifying the autolayout engine from a background thread, which can lead to engine corruption and weird crashes.  This will cause an exception in a future release.
+ Stack:(
+	0   CoreFoundation                      0x00000001856ecf74 <redacted> + 148
+	1   libobjc.A.dylib                     0x000000019a1f3f80 objc_exception_throw + 56
+	2   CoreFoundation                      0x00000001856ecea4 <redacted> + 0
+	3   Foundation                          0x00000001867065d8 <redacted> + 88
+	4   Foundation                          0x000000018658cf3c <redacted> + 56
+	5   Foundation                          0x0000000186588afc <redacted> + 260
+	6   UIKit                               0x000000018ad4793c <redacted> + 64
+	7   UIKit                               0x000000018ad48454 <redacted> + 244
+	8   UIKit                               0x000000018ad64f28 <redacted> + 108
+	9   UIKit                               0x000000018b46e77c <redacted> + 268
+	10  UIKit                               0x000000018af45fb0 <redacted> + 176
+	11  UIKit                               0x000000018af35098 <redacted> + 52
+	12  UIKit                               0x000000018ac3eff0 <redacted> + 644
+	13  QuartzCore                          0x000000018a445f14 <redacted> + 148
+	14  QuartzCore                          0x000000018a440b20 <redacted> + 292
+	15  QuartzCore                          0x000000018a4409e0 <redacted> + 32
+	16  QuartzCore                          0x000000018a44007c <redacted> + 252
+	17  QuartzCore                          0x000000018a43fdd0 <redacted> + 516
+	18  QuartzCore                          0x000000018a4394bc <redacted> + 80
+	19  CoreFoundation                      0x00000001856a3c30 <redacted> + 32
+	20  CoreFoundation                      0x00000001856a19d4 <redacted> + 372
+	21  CoreFoundation                      0x00000001855d0de0 CFRunLoopRunSpecific + 416
+	22  WebCore                             0x0000000197215aa0 <redacted> + 456
+	23  libsystem_pthread.dylib             0x000000019ac03b3c <redacted> + 156
+	24  libsystem_pthread.dylib             0x000000019ac03aa0 <redacted> + 0
+	25  libsystem_pthread.dylib             0x000000019ac01030 thread_start + 4
+)
+2015-10-09 12:34:56.726 KCLKeyboardCrasher[1362:593577] *** Assertion failure in -[UIApplication _cachedSystemAnimationFenceCreatingIfNecessary:], /BuildRoot/Library/Caches/com.apple.xbs/Sources/UIKit/UIKit-3505.17/UIApplication.m:1697
+2015-10-09 12:34:56.728 KCLKeyboardCrasher[1362:593577] *** Terminating app due to uncaught exception 'NSInternalInconsistencyException', reason: 'accessing _cachedSystemAnimationFence requires the main thread'
+*** First throw call stack:
+(0x1856ecf5c 0x19a1f3f80 0x1856ece2c 0x1865dbf3c 0x18aedf0cc 0x18aedf190 0x18af313b0 0x18b3df788 0x18b3da13c 0x18af41fac 0x18ac9f698 0x18ad4aa24 0x18ac5a69c 0x1855e3ab0 0x1855e39a8 0x18ac493cc 0x18ad4ab6c 0x18af461f4 0x18ac3eff0 0x18a445f14 0x18a440b20 0x18a4409e0 0x18a44007c 0x18a43fdd0 0x18a4394bc 0x1856a3c30 0x1856a19d4 0x1855d0de0 0x197215aa0 0x19ac03b3c 0x19ac03aa0 0x19ac01030)
+libc++abi.dylib: terminating with uncaught exception of type NSException
+(lldb) bt
+* thread #8: tid = 0x90ea9, 0x000000019ab3b1e0 libsystem_kernel.dylib`__pthread_kill + 8, name = 'WebThread', stop reason = signal SIGABRT
+  * frame #0: 0x000000019ab3b1e0 libsystem_kernel.dylib`__pthread_kill + 8
+    frame #1: 0x000000019ac04f0c libsystem_pthread.dylib`pthread_kill + 112
+    frame #2: 0x000000019aaaeb78 libsystem_c.dylib`abort + 140
+    frame #3: 0x00000001998853f4 libc++abi.dylib`abort_message + 132
+    frame #4: 0x00000001998a1e98 libc++abi.dylib`default_terminate_handler() + 304
+    frame #5: 0x000000019a1f4248 libobjc.A.dylib`_objc_terminate() + 124
+    frame #6: 0x000000019989ef44 libc++abi.dylib`std::__terminate(void (*)()) + 16
+    frame #7: 0x000000019989eb10 libc++abi.dylib`__cxa_rethrow + 144
+    frame #8: 0x000000019a1f4120 libobjc.A.dylib`objc_exception_rethrow + 44
+    frame #9: 0x00000001855d0e68 CoreFoundation`CFRunLoopRunSpecific + 552
+    frame #10: 0x0000000197215aa0 WebCore`RunWebThread(void*) + 456
+    frame #11: 0x000000019ac03b3c libsystem_pthread.dylib`_pthread_body + 156
+    frame #12: 0x000000019ac03aa0 libsystem_pthread.dylib`_pthread_start + 156
+(lldb) 
